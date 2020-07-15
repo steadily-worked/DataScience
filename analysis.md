@@ -32,7 +32,7 @@ train["Name"].apply(get_title).unique() -> .apply를 잘 모르겠다 어쨌든 
 
 19 : Name column에서 Mr~Master라는 문자열(.str보고 생각 한 것 .str 처음봄)을 포함하는 경우 각각의 Title을 Mr~Master로 바꿔주기
 20 : 피벗테이블화 (각 title의 생존율)
-21 : Master라는 문자열을 포함한 경우 Name column을 그대로 Master라는 새 coulmn에 저장
+21 : Master라는 문자열을 포함한 경우 Name column을 그대로 Master라는 새 coulmn에 저장.
 
 * Training
 22 : Pclass부터 Master까지의 column을 features로 묶었음 (Survived는 제외)
